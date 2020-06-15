@@ -1,0 +1,45 @@
+.header{
+    width: 100%;
+    height: 450px;
+    background:rgb(49, 126, 214) ;
+    position: relative;
+}
+
+.header__texture{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: url(../images/larochelle2.jpg) center no-repeat;
+    background-size: cover;
+    z-index: 1;
+    opacity: 0.5;
+}
+
+.header__navbar{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: baseline;
+}
+
+.header__navbar__logo__title{
+    color: white;
+    font-size: 1.5rem;
+}
+
+.lr{
+    font-size: 2.5rem;
+    font-weight: bold;
+    font-style: oblique;
+}
+
+.header__navbar__menu__link{
+    margin-left: 0.65rem;
+    color: rgb(136, 168, 206);
+    text-decoration: none;
+}
+
